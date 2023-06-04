@@ -1,4 +1,4 @@
-# **Mercado Loan Navigator** -
+<p align="center"> # **Mercado Loan Navigator** </p>
 ##  _An Internship Project for Sanmax Mercado_<br>
 **Current Teamforce**:<br>
 DUNDANGI PUSHKAL SAI <br>
