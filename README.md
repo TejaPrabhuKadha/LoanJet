@@ -1,5 +1,5 @@
-# **Mercado Loan Navigator** - An Internship Project for Sanmax Mercado<br>
-Current Teamforce:<br>
+# **Mercado Loan Navigator** - _An Internship Project for Sanmax Mercado_<br>
+**Current Teamforce**:<br>
 DUNDANGI PUSHKAL SAI <br>
 K C VENKATA BHAGAVAN<br>
 KADHA TEJA PRABHU <br>
@@ -9,7 +9,7 @@ YELAMANCHILI THRUSHITH<br>
 
 
 
-Design and Development Tasks:<br>
+**Design and Development Tasks**:<br>
 
 ➡ Create a login page for users to access the application.<br>
 ➡ Incorporate pre-planned loan options and recommend them to users based on their credit score.<br>
@@ -20,7 +20,7 @@ Design and Development Tasks:<br>
 ➡ Ensure the website/app is responsive and compatible with various devices and screen sizes.<br>
 ➡ Implement a salary hike representation feature to showcase potential loan repayment adjustments based on future salary increases.<br>
 
-Additional Features (if time permits):<br>
+**Additional Features** (if time permits):<br>
 
 ➡Integrate the reward points system with Solana blockchain for direct rewards redemption.<br>
 ➡ Develop a chatbot for the support page to provide automated assistance and answer common customer queries.<br>
