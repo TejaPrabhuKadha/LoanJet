@@ -12,7 +12,6 @@ YELAMANCHILI THRUSHITH
 Design and Development Tasks:
 
 ➡ Create a login page for users to access the application.
-
 ➡ Incorporate pre-planned loan options and recommend them to users based on their credit score.
 ➡ Develop a custom Loan Planner that includes interest rates, tenure, and other relevant factors to provide customers with an idea of their loan cost.
 ➡ Implement a rewards system based on credit scores.
