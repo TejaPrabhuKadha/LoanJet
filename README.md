@@ -1,4 +1,5 @@
-# **Mercado Loan Navigator** - ##  _An Internship Project for Sanmax Mercado_<br>
+# **Mercado Loan Navigator** -
+##  _An Internship Project for Sanmax Mercado_<br>
 **Current Teamforce**:<br>
 DUNDANGI PUSHKAL SAI <br>
 K C VENKATA BHAGAVAN<br>
