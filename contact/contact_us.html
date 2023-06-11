@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  
+  <main>
+    
+    <section class="review" id="review">
+
+        <h1 class="heading"> Contact <span>us</span> </h1>
+    
+    </section>
+    
+    </section>
+    <section class="contact" id="contact">
+    
+        <!-- <h1 class="heading"> <span>sign</span> up </h1> -->
+    
+        <div class="row">
+    
+            
+    
+            <form id = "contactForm">
+                <h3>ENTER YOUR DETAILS</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="First name" id = "fname" name = "fname" required>
+                </div>
+                <div class="inputBox">
+                
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="Last name" id = "lname" name = "lname" required>
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="Email" id = "email" name="email" required>
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="Mobile number" id = "number" name="number" required>
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="message" placeholder="Your Message" id = "message" name="message" required>
+                </div>
+                <input type="submit" value="SUBMIT" class="btn">
+            </form>
+            <!-- <script>
+                let form = document.querySelector("form");
+                form.addEventListener("submit",(e)=>{
+                    e.preventDefault();
+                    let data = new FormData(form);
+                    fetch("https://script.google.com/macros/s/AKfycbwP1ZkXdMUYcl1a6RBb8Hwwg8v8Ff6KafB1J8CovA-CLvHjLf5Kvw9vw5CKIpooyXC4/exec", {
+                        method:"POST",
+                        body:data
+                    })
+                        .then(res => res.text())
+                        .then(data => console.log(data));
+                }
+                
+                )
+            </script> -->
+    
+        </div>
+    
+    </section>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
