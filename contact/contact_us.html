@@ -1,84 +1,53 @@
-<!DOCTYPE html>
-<html>
+<header> 
+	<h1>Contact us</h1>
+</header>
 <head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
-  
-  <main>
-    
-    <section class="review" id="review">
 
-        <h1 class="heading"> Contact <span>us</span> </h1>
-    
-    </section>
-    <p class="para">Our Team</p>
-    <a href="about_us/about_us.html">
-    <div class="message-content">
-        <p class="para1">DUNDANGI PUSHKAL SAI <br>
-            K C VENKATA BHAGAVAN <br>
-            KADHA TEJA PRABHU <br>
-            DADI NAGA ANUSHA <br>
-            JUREDDI SOFIA <br>
-            YELAMANCHILI THRUSHITH</p>
-        </a>
-    </div>
-    </section>
-    <section class="contact" id="contact">
-    
-        <!-- <h1 class="heading"> <span>sign</span> up </h1> -->
-    
-        <div class="row">
-    
-            
-    
-            <form id = "contactForm">
-                <h3>ENTER YOUR DETAILS</h3>
-                <div class="inputBox">
-                    <span class="fas fa-user"></span>
-                    <input type="text" placeholder="First name" id = "fname" name = "fname" required>
-                </div>
-                <div class="inputBox">
-                
-                    <span class="fas fa-user"></span>
-                    <input type="text" placeholder="Last name" id = "lname" name = "lname" required>
-                </div>
-                <div class="inputBox">
-                    <span class="fas fa-envelope"></span>
-                    <input type="email" placeholder="Email" id = "email" name="email" required>
-                </div>
-                <div class="inputBox">
-                    <span class="fas fa-phone"></span>
-                    <input type="number" placeholder="Mobile number" id = "number" name="number" required>
-                </div>
-                <div class="inputBox">
-                    <span class="fas fa-phone"></span>
-                    <input type="message" placeholder="Your Message" id = "message" name="message" required>
-                </div>
-                <input type="submit" value="SUBMIT" class="btn">
-            </form>
-            <!-- <script>
-                let form = document.querySelector("form");
-                form.addEventListener("submit",(e)=>{
-                    e.preventDefault();
-                    let data = new FormData(form);
-                    fetch("https://script.google.com/macros/s/AKfycbwP1ZkXdMUYcl1a6RBb8Hwwg8v8Ff6KafB1J8CovA-CLvHjLf5Kvw9vw5CKIpooyXC4/exec", {
-                        method:"POST",
-                        body:data
-                    })
-                        .then(res => res.text())
-                        .then(data => console.log(data));
-                }
-                
-                )
-            </script> -->
-    
-        </div>
-    
-    </section>
-  </main>
+<div id="form">
+
+<div class="fish" id="fish"></div>
+<div class="fish" id="fish2"></div>
 
 
-  <script src="script.js"></script>
-</body>
-</html>
+<form id="waterform" method="post">
+
+<div>
+    <h1 id="font"><b>ENTER YOUR DETAILS</b></h1>
+</div>
+
+<div class="formgroup" id="name-form">
+    <label for="name">Your First name*</label>
+    <input type="text" id="name" name="name" />
+</div>
+
+<div class="formgroup" id="name-form">
+    <label for="name">Your Second name*</label>
+    <input type="text" id="name" name="name" />
+</div>
+
+
+<div class="formgroup" id="email-form">
+    <label for="email">Your e-mail*</label>
+    <input type="email" id="email" name="email" />
+</div>
+<div class="formgroup" id="email-form">
+    <label for="email">Your mobile number*</label>
+    <input type="email" id="email" name="email" />
+</div>
+
+<div class="formgroup" id="message-form">
+    <label for="message">Your message</label>
+    <textarea id="message" name="message"></textarea>
+</div>
+
+	<input type="submit" value="Send your message!" /><br><br>
+
+    <p>Know more about us and our work in </p><a href="../About Us/about.html">ABOUT US</a><br><br>
+    <p>for more enquiries mail: </p>
+    <a href="mailto:sanmaxk@Gmail.com">sanmaxk@gmail.com</a>
+
+    
+</div>
+</form>
