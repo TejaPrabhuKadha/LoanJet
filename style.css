@@ -450,6 +450,7 @@ footer {
         height: fit-content;
         z-index: 10;
         background-image: url(Images/abstract-light-gray-geometric-polygonal-background_1035-18010.jpg);
+	animation: gradientBG 13.5s ease infinite;
     
        
         
