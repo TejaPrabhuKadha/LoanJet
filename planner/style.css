@@ -368,7 +368,7 @@ footer {
       height: fit-content;
       background-image:url(Pictures/360_F_580912110_IEIGbfiJ94kWdgslb0deqQFWmlYRD3Fm.jpg);
       background-size: 1000px 400px;
-      
+      animation: gradientBG 13.5s ease infinite;
       
       
       box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
