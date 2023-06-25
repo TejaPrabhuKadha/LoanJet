@@ -351,7 +351,7 @@ footer {
         left: 0;
         width: 100%;
         height: fit-content;
-        background-image: url(/contact/pic/luxurious-background-with-golden-details_23-2149000719.jpg);
+        background-image: url(pic/luxurious-background-with-golden-details_23-2149000719.jpg);
        
         animation: gradientBG 6.5s ease infinite;
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -516,7 +516,7 @@ form{
     margin-right: auto;
 	
 	border-radius: 25px ;
-	background-image: url(/contact/pic/pink-rose-gold-geometric-pattern-c45o6uifbaylt14z.jpg);
+	background-image: url(pic/pink-rose-gold-geometric-pattern-c45o6uifbaylt14z.jpg);
 
     background-position: center;
     background-repeat: no-repeat;
