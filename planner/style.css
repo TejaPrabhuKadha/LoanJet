@@ -1,0 +1,610 @@
+@font-face {
+    font-family: "Logofont";
+    src: url(Fonts/Logofont.ttf);
+}
+@font-face {
+    font-family: "navbarfont";
+    src: url(Fonts/AERO_03.otf);
+}
+@font-face {
+    font-family:"coulson" ;
+    src: url(Fonts/Coulson.otf);
+}
+@font-face {
+    font-family:"russo" ;
+    src: url(Fonts/RussoOne-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  
+}
+@font-face {
+  font-family: "aboutfont";
+  src: url(Fonts/HighSchoolUsaSans-52vx.ttf);
+}
+@font-face {
+  font-family: "Logofont";
+  src: url(Fonts/Logofont.ttf);
+}
+@font-face {
+  font-family: "navbarfont";
+  src: url(Fonts/AERO_03.otf);
+}
+@font-face {
+  font-family:"coulson" ;
+  src: url(Fonts/Coulson.otf);
+}
+@font-face {
+  font-family:"russo" ;
+  src: url(Fonts/RussoOne-Regular.ttf);
+}
+
+
+
+.logo {
+  font-size: 28px;
+  background: linear-gradient(50deg,#14edf1,#241f4e,#f32d84,#d5de07);
+  background-size: 240% 240%;
+  animation: gradient-animation 8s ease infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-top: -10px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.logo:hover{
+  transform: scale(1.1);
+  transition: 0.2s; 
+}
+.abouthead{
+  z-index: 9999;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(80px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  color: #02060a;
+  height: 80px;
+  font-weight: 100;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px; 
+  
+  
+}
+.abouthead .header-left {
+  display: flex;
+  font-family: "navbarfont";
+  align-items: center;
+}
+.abouthead .header-left .logo {
+  width: 400px;
+  margin-top: -10px;
+}
+.abouthead.header-left nav {
+  margin-left: 20px;
+}
+.abouthead .header-left nav ul {
+  display: flex;
+  margin-top: -30px;
+}
+.abouthead .header-left nav ul li a {
+  display: block;
+  color: #6927be;
+  font-size: 23px;
+  margin-top: 30px;
+  padding: 5px 10px;
+  transition: 0.2s;
+  font-family: "navbarfont";
+  
+}
+.planner{
+  margin-top: 0px;
+
+}
+.abouthead .header-left nav ul li a:hover{
+  color: rgb(0, 24, 241);
+  
+  transform: scale(1.14);
+  transition: 0.3s;
+  
+
+
+} 
+.gradient-background {
+background: linear-gradient(76deg,#388eec,#8926c5,#6506ef,#44cc41);
+background-size: 240% 240%;
+animation: gradient-animation 16s ease infinite;
+}
+
+@keyframes gradient-animation {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
+.header-left .logo span{
+  font-family: "logofont";
+  font-size: 20px;
+}
+nav ul li a.active{
+  color: #030100;
+}
+
+
+nav .login-signup {
+  display: none;
+  margin-top: -30px;
+}
+.abouthead .header-right {
+  display: flex;
+  align-items: center;
+}
+.abouthead .login-signup {
+  color: #cfd9e0;
+  font-weight: bold;
+}
+.abouthead .login-signup a {
+  display: inline-block;
+  color: none;
+  background:none;
+  padding: 6px 20px;
+  border-radius: px;
+  margin-top: 15px;
+
+}
+.abouthead .header-right .hamburger {
+  margin-left: 20px;
+  cursor: pointer;
+  display: none;
+  
+}
+.abouthead .header-right .hamburger div {
+  width: 35px;
+  height: 4px;
+  border-radius: 50px;
+  margin: 6px 0;
+  background: linear-gradient(97deg,#00020e,#03015a,#0011fd,#6e64f3);
+  background-size: 240% 240%;
+  animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+ul li a{
+  gap: 90px;
+}
+@media only screen and (max-width: 1275px){
+  .header-left .logo span{
+      display: none;
+  }
+  .abouthead .header-left .logo {
+      width:40px ;
+  }
+}
+  
+
+
+
+
+.header-left{
+  font-family: "navbarfont";
+  font-size: 19px;
+
+}
+.header-right{
+  font-family: "navbarfont";
+
+}
+
+.login-signup .btn, .planner button {
+ /* reset */
+ -webkit-appearance: none;
+ border: 0;
+ outline: 0;
+ /* styles */
+ position: relative;
+ background: linear-gradient(-45deg, #ffd6d6,#faffb0,#c0ffb6,#d0ddff,#e1bfff);
+background-size: 400% 400%;
+animation: gradientBG 4.5s ease infinite;
+ padding: 1.5rem 10rem;
+ color: black;
+ text-transform:uppercase;
+ border-radius: 100px;
+ font-size: 1.3rem;
+ transition: .3s;
+}
+@keyframes gradientBG {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
+.planner button{
+  margin-left: 280px;
+  font-size: 22px;
+  padding: 3px 18px 3px 18px;
+  font-family: "navbarfont";
+}
+.login-signup .btn{
+  margin-top: -10px;
+  /* reset */
+  -webkit-appearance: none;
+  border: 0;
+  outline: 0;
+  /* styles */
+  position: relative;
+  background: linear-gradient(-45deg, #ffd6d6,#faffb0,#c0ffb6,#d0ddff,#e1bfff);
+   background-size: 400% 400%;
+   animation: gradientBG 4.5s ease infinite;
+  padding: 3px 18px 3px 18px;
+  color: black;
+  text-transform:uppercase;
+  border-radius: 100px;
+  font-family: "navbarfont";
+  font-size:20px;
+  transition: .3s;
+}
+@keyframes gradientBG {
+   0% {
+       background-position: 0% 50%;
+   }
+   50% {
+       background-position: 100% 50%;
+   }
+   100% {
+       background-position: 0% 50%;
+   }
+}
+.planner button {
+  border-radius: 4px;
+  padding-top: 1px;
+  font-size: 18px;
+}
+.planner button:hover,
+.login-signup .btn:hover{
+  
+  transition: 0.3s;
+  box-shadow: 2px 0px 36px rgb(253, 0, 211);
+  background: linear-gradient(-45deg, #ffd6d6,#faffb0,#c0ffb6,#d0ddff,#e1bfff);
+   background-size: 400% 400%;
+   animation: gradientBG .5s ease infinite;
+}
+.login-signup .btn:hover{
+  transform: scale(1.05);
+}
+/* navigation code ends*/ 
+
+ 
+
+
+
+
+
+/* footer for the end of the page after all deployments complete
+footer {
+ position: relative;;
+ 
+ bottom: 0;
+ width: 100%;
+ height: 60px;   /* Height of the footer 
+ background: #6cf;
+}
+*/
+
+@media(max-width: 920px){
+  
+}
+@media only screen and (max-width: 1569px) {
+  .planner button{
+      margin-left: 30px;
+      transition: 0.3s;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .header-left .logo{
+      margin-top: -15px;
+  }
+  .abouthead .header-left nav ul li a {
+      color: #000000;
+      font-size: 20px;
+      text-transform: capitalize;
+      font-family: "logofont";
+      
+  }
+  .abouthead{
+      padding: 0 20px;
+      
+      
+
+  }
+  .abouthead .header-right .hamburger {
+      display: block;
+      color: aqua;
+      margin-top: 0px;
+  }
+  .abouthead .header-left nav {
+      margin: 0;
+      
+      position: fixed;
+      top: -590%;
+      left: 0;
+      width: 100%;
+      height: fit-content;
+      background-image:url(/planner/Pictures/360_F_580912110_IEIGbfiJ94kWdgslb0deqQFWmlYRD3Fm.jpg);
+      background-size: 1000px 400px;
+      
+      
+      
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+      transition: transform 0.9s;
+      position: absolute;
+      z-index: 99;
+      text-align: center;
+      
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+      border-bottom-left-radius:12px ;
+      border-bottom-right-radius:12px ;
+      
+      font-family: "navbarfont";
+      
+
+  }
+  .abouthead .header-left nav.active {
+      top: 79px;
+      transition-timing-function: ease-in-out;
+      transition: 0.9s;
+      
+
+      
+      
+
+  }
+  .abouthead .header-left nav ul {
+      display: block;
+  }
+}
+@media only screen and (max-width: 500px) {
+  
+  .header-left .logo span{
+      display:inline;
+      
+
+      
+  }
+  .abouthead .header-left .logo{
+      width: 400px;
+
+  }
+  .logo{
+      content: "";
+  }
+  nav .login-signup {
+      display: block;
+      margin-top: 20px;
+      font-family: "navbarfont";
+  }
+  .abouthead .header-right .login-signup {
+      display: none;
+      font-family: "navbarfont";
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+.loan-calculator {
+    font-family: "Roboto", sans-serif;
+    width: auto;
+    justify-content: center;
+    top: 60px;
+    position: absolute;
+    margin: 114px auto;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    color: #021e5a;
+    overflow: hidden;
+    
+    
+    
+  }
+  
+  .loan-calculator,
+  .loan-calculator * {
+    box-sizing: border-box;
+  }
+  
+  .loan-calculator .top {
+    background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(2, 15, 94), rgb(6, 6, 167), rgb(60, 47, 243), rgb(124, 116, 240));
+    background-size: 200% 200%;
+    animation: animate 10s ease infinite;
+    color: #fff;
+    padding: 32px;
+    
+  }
+  
+  
+  .loan-calculator .top h2 {
+    margin-top: 0;
+    font-family: "logofont";
+  }
+  
+  .loan-calculator form {
+    font-family: "navbarfont";
+    font-size: 22px;
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+  }
+  
+  .loan-calculator .title {
+    margin-bottom: 16px;
+  }
+  
+  .loan-calculator form input {
+    font-family: "logofont";
+    font-size: 18px;
+    padding: 6px 22px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .loan-calculator .result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .loan-calculator .result .left {
+    width: 100%;
+    padding: 8px 32px;
+  }
+  
+  .loan-calculator .left h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+  
+  .loan-calculator .result .value {
+    font-size: 30px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(20, 33, 61, 0.2);
+    font-family: "russo";
+  }
+  
+  .loan-calculator .result .value::before {
+    content: "₹";
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 10px;
+    opacity: 0.8;
+  }
+  
+  .loan-calculator .calculate-btn {
+    background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 350ms;
+    color: #fff;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 100;
+    cursor: pointer;
+    margin: 24px 0;
+    font-family: "navbarfont";
+  }
+  .loan-calculator .calculate-btn:hover{
+    background-position: right;
+    transform: scale(1.125);
+    transition: 0.3s;
+
+  }
+  
+  .loan-calculator .right {
+    width: 50%;
+  }
+  
+  @media (max-width: 650px) {
+    .loan-calculator {
+      width: 90%;
+      max-width: 500px;
+    }
+  
+    .loan-calculator form {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .loan-calculator .result {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  @keyframes animate {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@media (max-width: 1524px) {
+  .loan-calculator{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+
+}
+@media (max-width: 1000px) {
+  .loan-calculator{
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+
+
+}
+
+
+
+
+
+
