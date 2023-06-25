@@ -688,7 +688,7 @@ footer {
       left: 0;
       width: 100%;
       height: fit-content;
-      background-image: url(/ourplans/imagedata/table.jpg);
+      background-image: url(imagedata/table.jpg);
       
       background-size: 400% 400%;
       animation: gradientBG 30.5s ease infinite;
