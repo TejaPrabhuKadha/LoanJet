@@ -1,0 +1,221 @@
+@font-face {
+    font-family: "Logofont";
+    src: url(Fonts/Logofont.ttf);
+}
+@font-face {
+    font-family: "navbarfont";
+    src: url(Fonts/AERO_03.otf);
+}
+@font-face {
+    font-family:"coulson" ;
+    src: url(Fonts/Coulson.otf);
+}
+@font-face {
+    font-family:"russo" ;
+    src: url(Fonts/RussoOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: "aboutfont";
+  src: url(Fonts/HighSchoolUsaSans-52vx.ttf);
+}
+@font-face {
+  font-family: "Logofont";
+  src: url(Fonts/Logofont.ttf);
+}
+@font-face {
+  font-family: "navbarfont";
+  src: url(Fonts/AERO_03.otf);
+}
+@font-face {
+  font-family:"coulson" ;
+  src: url(Fonts/Coulson.otf);
+}
+@font-face {
+  font-family:"russo" ;
+  src: url(Fonts/RussoOne-Regular.ttf);
+}
+
+.dauio{
+  position: absolute;
+  margin: 90px;
+  margin-left: 0px;
+  
+}
+.kkkk{
+  height: 100vh;
+  
+}
+.loan-calculator {
+    font-family: "Roboto", sans-serif;
+    width: auto;
+    justify-content: center;
+    top: 60px;
+    margin: ;
+    
+    margin-left: 350px;
+    margin-right: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    color: #021e5a;
+    overflow: hidden;
+    
+    
+    
+  }
+  
+  .loan-calculator,
+  .loan-calculator * {
+    box-sizing: border-box;
+  }
+  
+  .loan-calculator .top {
+    margin-top: 40px;
+    background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(2, 15, 94), rgb(6, 6, 167), rgb(60, 47, 243), rgb(124, 116, 240));
+    background-size: 200% 200%;
+    animation: animate 10s ease infinite;
+    color: #fff;
+    padding: 32px;
+    
+  }
+  
+  
+  .loan-calculator .top h2 {
+    margin-top: 0;
+    font-family: "logofont";
+  }
+  
+  .loan-calculator form {
+    font-family: "navbarfont";
+    font-size: 22px;
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+  }
+  
+  .loan-calculator .title {
+    margin-bottom: 16px;
+  }
+  
+  .loan-calculator form input {
+    font-family: "logofont";
+    font-size: 18px;
+    padding: 6px 22px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .loan-calculator .result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .loan-calculator .result .left {
+    width: 100%;
+    padding: 8px 32px;
+  }
+  
+  .loan-calculator .left h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+  
+  .loan-calculator .result .value {
+    font-size: 30px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(20, 33, 61, 0.2);
+    font-family: "russo";
+  }
+  
+  .loan-calculator .result .value::before {
+    content: "₹";
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 10px;
+    opacity: 0.8;
+  }
+  
+  .loan-calculator .calculate-btn {
+    background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 350ms;
+    color: #fff;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 100;
+    cursor: pointer;
+    margin: 24px 0;
+    font-family: "navbarfont";
+  }
+  .loan-calculator .calculate-btn:hover{
+    background-position: right;
+    transform: scale(1.125);
+    transition: 0.3s;
+
+  }
+  
+  .loan-calculator .right {
+    width: 50%;
+  }
+  
+  @media (max-width: 650px) {
+    .loan-calculator {
+      width: 90%;
+      max-width: 500px;
+    }
+  
+    .loan-calculator form {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .loan-calculator .result {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  @keyframes animate {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@media (max-width: 1524px) {
+  .loan-calculator{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+
+}
+@media (max-width: 1000px) {
+  .loan-calculator{
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+
+
+}
+
+
+
+
+
+

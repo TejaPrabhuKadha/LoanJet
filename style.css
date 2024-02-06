@@ -1,0 +1,520 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}  
+/* navigation code */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+@font-face {
+    font-family: "Logofont";
+    src: url(Fonts/Logofont.ttf);
+}
+@font-face {
+    font-family: "navbarfont";
+    src: url(Fonts/AERO_03.otf);
+}
+@font-face {
+    font-family:"coulson" ;
+    src: url(Fonts/Coulson.otf);
+}
+@font-face {
+    font-family:"russo" ;
+    src: url(Fonts/RussoOne-Regular.ttf);
+}
+.logo {
+    font-size: 28px;
+    background: linear-gradient(50deg,#14edf1,#241f4e,#f32d84,#d5de07);
+    background-size: 240% 240%;
+    animation: gradient-animation 8s ease infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+.logo:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+    
+    
+header {
+    z-index: 999;
+    color: #02060a;
+    height: 70px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background: linear-gradient(135deg, rgba(204, 178, 178, 0.1), rgba(255, 255, 255, 0));
+    position: relative;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(80px);
+    border:1px solid rgba(173, 138, 138, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+}
+header .header-left {
+    display: flex;
+    font-family: "navbarfont";
+    align-items: center;
+}
+header .header-left .logo {
+    width: 400px;
+}
+header .header-left nav {
+    margin-left: 50px;
+}
+header .header-left nav ul {
+    display: flex;
+}
+nav ul li a {
+    display: block;
+    color: #6d01fa;
+    font-size: 20px;
+    padding: 5px 10px;
+    transition: 0.2s;
+    
+}
+.gradient-background {
+  background: linear-gradient(76deg,#388eec,#8926c5,#6506ef,#44cc41);
+  background-size: 240% 240%;
+  animation: gradient-animation 16s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.header-left .logo span{
+    font-family: "logofont";
+    font-size: 20px;
+}
+nav ul li a.active{
+    color: #e91b0d;
+}
+nav ul li a .lol:hover{
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 2px 0px 1px rgb(255, 3, 3);
+    transform: scale(1.04);
+    transition: 0.3s;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+nav .login-signup {
+    display: none;
+}
+header .header-right {
+    display: flex;
+    align-items: center;
+}
+header .login-signup {
+    color: #cfd9e0;
+    font-weight: bold;
+}
+header .login-signup a {
+    display: inline-block;
+    color: none;
+    background:none;
+    padding: 6px 20px;
+    border-radius: px;
+}
+header .header-right .hamburger {
+    margin-left: 20px;
+    cursor: pointer;
+    display: none;
+}
+header .header-right .hamburger div {
+    width: 35px;
+    height: 4px;
+    border-radius: 50px;
+    margin: 6px 0;
+    background: linear-gradient(97deg,#00020e,#03015a,#0011fd,#6e64f3);
+    background-size: 240% 240%;
+    animation: gradient-animation 6s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+ul li a{
+    gap: 90px;
+}
+@media only screen and (max-width: 1275px){
+    .header-left .logo span{
+        display: none;
+    }
+    header .header-left .logo {
+        width:40px ;
+    }
+}
+    
+
+
+
+
+.header-left{
+    font-family: "navbarfont";
+    font-size: 19px;
+
+}
+.header-right{
+    font-family: "navbarfont";
+
+}
+
+  .login-signup .btn, .planner button {
+   /* reset */
+   -webkit-appearance: none;
+   border: 0;
+   outline: 0;
+   /* styles */
+   position: relative;
+   background: linear-gradient(-45deg, #ffd6d6,#faffb0,#c0ffb6,#d0ddff,#e1bfff);
+	background-size: 400% 400%;
+	animation: gradientBG 4.5s ease infinite;
+   padding: 1.5rem 10rem;
+   color: black;
+   text-transform:uppercase;
+   border-radius: 100px;
+   font-size: 1.3rem;
+   transition: .3s;
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.planner button{
+    margin-left: 280px;
+    font-size: 22px;
+    padding: 3px 18px 3px 18px;
+    font-family: "navbarfont";
+}
+.login-signup .btn{
+    /* reset */
+    -webkit-appearance: none;
+    border: 0;
+    outline: 0;
+    /* styles */
+    position: relative;
+    background: linear-gradient(-45deg, #ffd6d6,#faffb0,#c0ffb6,#d0ddff,#e1bfff);
+     background-size: 400% 400%;
+     animation: gradientBG 4.5s ease infinite;
+    padding: 3px 18px 3px 18px;
+    color: black;
+    text-transform:uppercase;
+    border-radius: 100px;
+    font-family: "navbarfont";
+    font-size:20px;
+    transition: .3s;
+ }
+ @keyframes gradientBG {
+     0% {
+         background-position: 0% 50%;
+     }
+     50% {
+         background-position: 100% 50%;
+     }
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+ .planner button {
+    border-radius: 4px;
+    padding-top: 1px;
+    font-size: 18px;
+ }
+ .planner button:hover,
+ .login-signup .btn:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 2px 0px 36px rgb(253, 0, 211);
+ }
+/* navigation code ends*/ 
+.dashboard{
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0px;
+    
+    position: relative;
+    
+    z-index:2;
+    
+
+}
+.Welcome{
+    font-size: 45px;
+    font-family: "navbarfont";
+    
+    
+}
+.mercado{
+    
+    
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    font-size: 68px;
+    font-family: "coulson";
+
+    text-transform: uppercase; 
+    background-image: linear-gradient(45deg, #03f834, #3ef538c7, #18e60588, #42378F);
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+    
+    background-size: 300%;
+    background-position: -100%;  
+    
+    animation: animatedText 5s infinite alternate-reverse;
+}
+  
+@keyframes animatedText{
+    to{
+      background-position: 100%; 
+    }
+}
+
+   
+
+
+.navig{
+    font-family:"russo" ;
+    font-size: 64px;
+     
+    background-image: linear-gradient(to right, #0f0f0f, #570308, #813333, #f70606);
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+    
+    background-size: 300%;
+    background-position: -100%;  
+    
+    animation: animatedText 5s infinite alternate-reverse;
+}
+
+
+.persona{
+    font-family: "navbarfont";
+    font-size: 25px
+}
+body{
+    
+    background-image: url(Images/homepage.jpg);
+    background-color: #b41b1b;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+
+
+    margin-top: 0px;
+}
+/* footer for the end of the page after all deployments complete
+footer {
+   position: relative;;
+   
+   bottom: 0;
+   width: 100%;
+   height: 60px;   /* Height of the footer 
+   background: #6cf;
+}
+*/
+.logopage{
+    
+    
+    padding:50px ;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    width: auto;
+    position: ;
+    
+    
+    
+    
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(80px);
+    border-radius: 20px;
+    border:3px solid rgba(248, 0, 0, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    z-index:1;
+    
+
+}
+
+.fun {
+    color: white;
+    border: 0;
+    cursor: pointer;
+    padding: .5em 1.25em;
+    background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 350ms;
+    font-family: "navbarfont";
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border-radius: 9px;
+  }
+  
+  .fun:hover {
+    background-position: right;
+    box-shadow: 2px 0px 36px rgb(253, 0, 126);
+  }
+
+@media(max-width: 920px){
+    
+}
+@media only screen and (max-width: 1569px) {
+    .planner button{
+        margin-left: 30px;
+        transition: 0.3s;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    header {
+        padding: 0 20px;
+        
+
+    }
+    header .header-left nav ul li a {
+        color: #000000;
+      font-size: 20px;
+      text-transform: capitalize;
+      font-family: "logofont";
+      margin-bottom: 0px;
+
+    }
+    header .header-right .hamburger {
+        display: block;
+        color: aqua;
+    }
+    header .header-left nav {
+        margin: 0;
+        position: absolute;
+        top: -490%;
+        left: 0;
+        width: 100%;
+        height: fit-content;
+        z-index: 10;
+        background-image: url(Images/abstract-light-gray-geometric-polygonal-background_1035-18010.jpg);
+	animation: gradientBG 13.5s ease infinite;
+    
+       
+        
+        border:1px solid rgba(173, 138, 138, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        transition: transform 0.9s;
+        
+        text-align: center;
+        
+        font-family: "navbarfont";
+
+    }
+    header .header-left nav.active {
+        top: 69px;
+        transition-timing-function: ease-in-out;
+        transition: 0.9s;
+        background-color: linear-gradient(135deg, rgba(255, 8, 8, ), rgba(255, 255, 255, 0.9));
+        
+
+        
+        
+
+    }
+    header .header-left nav ul {
+        display: block;
+    }
+}
+@media only screen and (max-width: 500px) {
+    header{
+       
+    }
+    .header-left .logo span{
+        display:inline;
+        
+    }
+    header .header-left .logo{
+        width: 400px;
+    }
+    .logo{
+        content: "";
+    }
+    nav .login-signup {
+        display: block;
+        margin-top: 20px;
+        font-family: "navbarfont";
+    }
+    header .header-right .login-signup {
+        display: none;
+        font-family: "navbarfont";
+    }
+    
+}
+@media only screen and (max-width: 841px){
+    .logopage{
+        height: 708px;
+        margin-top: 100px;
+        padding: 100px 3px 60px 3px;
+    }
+    .fun{
+        padding:10px 176px ;
+        font-size: 25px;
+        margin-top: 129px;
+    }
+}
+
+  
+
