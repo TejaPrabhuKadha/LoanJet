@@ -1,12 +1,6 @@
-# **Loan Jet** - _Internship Project for Sanmax Mercado_<br>
+# **Loan Jet** -<br>
 
-## **Current Teamforce**:<br>
-- DUNDANGI PUSHKAL SAI
-- K C VENKATA BHAGAVAN
-- KADHA TEJA PRABHU (Team Lead)
-- DADI NAGA ANUSHA
-- JUREDDI SOFIA
-- YELAMANCHILI THRUSHITH
+
 
 ## **Design and Development Tasks**:<br>
 
@@ -19,10 +13,7 @@
 ➡ Ensure cross-device compatibility and responsiveness of the website/app.<br>
 ➡ Implement a salary hike representation feature to project potential loan repayment adjustments based on future income increases.<br>
 
-## **Additional Features** (if time permits):<br>
 
-➡ Integrate the reward points system with Solana blockchain for direct rewards redemption.<br>
-➡ Develop a chatbot for the support page to provide automated assistance and address common customer queries.<br>
 
 ## Installation
 
